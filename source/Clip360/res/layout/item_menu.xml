@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mn_favorite"
+    style="@style/form_fw"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/sl_icon_w"
+        android:layout_height="@dimen/sl_icon_h"
+        android:background="@null"
+        android:clickable="false"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/danhmuc_film_1" />
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/text_small1"
+        android:paddingLeft="5dp"
+        android:textSize="16sp"
+        android:maxLines="2"
+        android:textColor="#cdcdcd"
+        android:textStyle="normal"
+        android:layout_gravity="center_vertical"
+        android:clickable="false"
+        android:paddingRight="10dp"
+        android:text=" asdasd  as " />
+
+</LinearLayout>

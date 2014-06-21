@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="home_tabs">
+        <item>Trang chủ</item>
+        <item>Danh mục</item>
+        <item>Tin tức</item>
+        <item>Tìm kiếm</item>
+        <item>Lịch sử GD</item>
+    </string-array>
+ 
+    
+</resources>

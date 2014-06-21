@@ -1,0 +1,17 @@
+1. onfail cũng trả về dữ liệu
+2. bỏ taskparams
+3. add to backstack
+4. saveBitmap cua filesupport
+5. init database
+getAllInTableToCV bo keys
+
+sai tag db
+
+method_GET
+sai tag db
+bỏ id root_layout
+khong phu thuoc model vao activity
+du lieu truyen vao kho hieu
+bỏ id root_layout
+dùng singleton cho basenetsupport
+them where cho idelegate

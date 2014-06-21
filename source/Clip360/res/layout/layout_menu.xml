@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111" >
+
+    <LinearLayout
+        android:id="@+id/temp1"
+        style="@style/form_ww"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <LinearLayout
+            style="@style/form_fw"
+            android:layout_height="@dimen/top_height"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="fill_parent"
+                android:background="@null"
+                android:src="@drawable/danhmuc_icon" />
+
+            <TextView
+                style="@style/text_header"
+                android:layout_gravity="center_vertical"
+                android:text="@string/danh_muc" />
+        </LinearLayout>
+
+        <View
+            style="@style/form_fw"
+            android:layout_height="1px"
+            android:background="#88ffffff" />
+
+        <LinearLayout
+            android:id="@+id/mn_favorite"
+            style="@style/form_fw"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:layout_width="@dimen/sl_icon_w"
+                android:layout_height="@dimen/sl_icon_h"
+                android:background="@null"
+                android:src="@drawable/star_1" />
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/favorite"
+                style="@style/text_white"
+                android:layout_gravity="center_vertical"
+                android:text="@string/video_yeu_thich"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <View
+            style="@style/form_fw"
+            android:layout_height="1px"
+            android:layout_marginTop="5dp"
+            android:background="#88ffffff" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temp1"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:textSize="11sp"
+        android:text="Tải lại"
+        android:textColor="#ffffff"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progress_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/reload" />
+
+    <ListView
+        android:id="@+id/lvMenu"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/progress_menu" >
+    </ListView>
+
+</RelativeLayout>

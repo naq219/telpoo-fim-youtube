@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mn_favorite"
+    style="@style/form_fw"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+
+    <LinearLayout
+        android:id="@+id/temp"
+        style="@style/form_fw"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv"
+            style="@style/text"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:text="@string/no_network_try_again" />
+
+        <Button
+            android:id="@+id/btnReload"
+            style="@style/form_ww"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/thulai"
+            android:textColor="#000000"
+            android:textSize="11sp" />
+    </LinearLayout>
+    
+    
+    <ListView
+        android:id="@+id/lv"
+        style="@style/form_ff"
+        android:layout_below="@+id/temp"
+        android:divider="@null"
+        android:dividerHeight="8dp" >
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+Danh sách chuyên mục: http://clip360.net/mobile/json/cats.php
+
+Danh sách video (tất cả chuyên mục): http://clip360.net/mobile/json/videos.php
+Phân trang: http://clip360.net/mobile/json/videos.php?p=<số trang>
+
+Danh sách video của 1 chuyên mục: http://clip360.net/mobile/json/videos.php?c=<id chuyên mục>
+Phân trang: http://clip360.net/mobile/json/videos.php?c=<id chuyên mục>&p=<số trang>
+
+Kết quả tìm kiếm: http://clip360.net/mobile/json/search.php?q=từ+khóa
+Phân trang kết quả tìm kiếm: http://clip360.net/mobile/json/search.php?q=từ+khóa&p=<số trang>
+

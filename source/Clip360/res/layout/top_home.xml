@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/top_height"
+    android:background="@drawable/top_bg" >
+
+    <RelativeLayout
+        android:id="@+id/fl_menu"
+        style="@style/form_ww" >
+
+        <ImageButton
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="1px"
+            android:background="@null"
+            android:clickable="false"
+            android:src="@drawable/category_icon" />
+
+        <ImageButton
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:paddingLeft="15dp"
+            android:src="@drawable/logo" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/right"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:background="@null"
+        android:src="@drawable/more_icon" />
+
+    <com.telpoo.clip360.utils.myEdittext
+        android:id="@+id/ed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toLeftOf="@+id/tempsearch"
+        android:layout_toRightOf="@+id/fl_menu"
+        android:background="@drawable/search_form"
+        android:hint="Từ khóa tìm kiếm"
+        android:paddingLeft="20dp"
+        android:paddingRight="16dp"
+        android:singleLine="true"
+        android:textSize="14sp"
+        android:imeOptions="actionSearch" 
+        android:visibility="invisible" />
+
+    <com.telpoo.clip360.utils.TvHeader
+        android:id="@+id/title"
+        android:paddingBottom="2sp"
+        style="@style/text_white"
+        android:layout_width="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/tempsearch"
+        android:layout_toRightOf="@+id/fl_menu"
+        android:clickable="false"
+       android:textStyle="bold"
+        android:singleLine="true" />
+
+  <RelativeLayout
+        android:id="@+id/tempsearch"
+        style="@style/form_ww"
+        android:layout_marginLeft="6dp"
+        android:layout_toLeftOf="@+id/right" >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:id="@+id/progress_search"
+            android:visibility="invisible"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+          
+          />
+
+        <ImageButton
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:src="@drawable/search_icon" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/clear"
+        android:layout_width="20dp"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/tempsearch"
+        android:background="@null" />
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mn_favorite"
+    style="@style/form_fw"
+    android:background="@drawable/item_bg1"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/temp_vytid"
+        android:layout_width="@dimen/item_w"
+        android:layout_height="@dimen/item_h"
+        android:layout_centerVertical="true"
+        android:clickable="false" >
+
+        <ImageView
+            android:id="@+id/vytid"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/defaultitem" />
+
+        <TextView
+            android:id="@+id/vtime"
+            style="@style/text_white"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:background="#60000000"
+            android:padding="2dp"
+            android:text="1:45:50"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/fabvorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:src="@drawable/star_1" />
+
+    <ImageView
+        android:id="@+id/item_space"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/item_h"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/fabvorite"
+        android:background="@drawable/item_space" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@+id/item_space"
+        android:layout_toRightOf="@+id/temp_vytid"
+        android:orientation="vertical"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/vname"
+            style="@style/text_black"
+            android:clickable="false"
+            android:gravity="left"
+            android:maxLines="2"
+            android:text="Chém chuối cuối tuần \n abc abc"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/vview"
+            style="@style/text_black"
+            android:clickable="false"
+            android:gravity="left"
+            android:paddingLeft="1dp"
+            android:text="1242 lượt xem"
+            android:textColor="#cfcfcf"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

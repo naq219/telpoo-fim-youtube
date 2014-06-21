@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed" >
+
+    <RelativeLayout
+        android:id="@+id/fm_top"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/top_height" />
+
+    <com.startapp.android.publish.banner.Banner
+        android:id="@+id/startAppBanner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <FrameLayout
+        android:id="@+id/realTabContent"
+        style="@style/form_ff"
+        android:layout_above="@+id/startAppBanner1"
+        android:layout_below="@+id/fm_top" >
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/root_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/fm_top"
+        android:background="#000000"
+        android:visibility="gone" >
+    </RelativeLayout>
+
+</RelativeLayout>
