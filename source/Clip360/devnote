@@ -9,3 +9,4 @@ Phân trang: http://clip360.net/mobile/json/videos.php?c=<id chuyên mục>&p=<s
 Kết quả tìm kiếm: http://clip360.net/mobile/json/search.php?q=từ+khóa
 Phân trang kết quả tìm kiếm: http://clip360.net/mobile/json/search.php?q=từ+khóa&p=<số trang>
 
+mat ket noi ko the loadmore lai nua 

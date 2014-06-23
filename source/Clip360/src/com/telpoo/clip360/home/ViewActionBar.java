@@ -46,7 +46,7 @@ public class ViewActionBar {
 
 			@Override
 			public void onClick(View v) {
-				IntentSupport.openWeb(context.getString(R.string.url_app_google), context);
+				IntentSupport.openWeb("https://play.google.com/store/apps/details?id="+context.getApplicationContext().getPackageName(), context);
 
 			}
 		});

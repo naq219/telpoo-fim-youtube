@@ -32,7 +32,6 @@ import com.telpoo.clip360.utils.WhereCallback;
 import com.telpoo.frame.delegate.Idelegate;
 import com.telpoo.frame.object.BaseObject;
 import com.telpoo.frame.ui.BaseFragmentActivity;
-import com.telpoo.frame.utils.FileSupport;
 
 public class HomeActivity extends SlidingFragmentActivity implements Idelegate, TaskType {
 

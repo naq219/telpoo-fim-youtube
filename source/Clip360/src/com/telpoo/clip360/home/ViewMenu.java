@@ -42,6 +42,7 @@ public class ViewMenu {
 		
 		reload=(Button) v.findViewById(R.id.reload);
 		
+		((TextView)v.findViewById(R.id.appName)).setText(context1.getText(context1.getApplicationInfo().labelRes));
 		lv = (ListView) v.findViewById(R.id.lvMenu);
 		tv_favorite= (TextView) v.findViewById(R.id.favorite);
 		mn_favorite = v.findViewById(R.id.mn_favorite);

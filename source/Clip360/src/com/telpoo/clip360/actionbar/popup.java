@@ -59,7 +59,7 @@ public class popup extends BaseFragmentActivity {
 			@Override
 			public void onClick(View arg0) {
 				temp1.setVisibility(View.GONE);
-				IntentSupport.openWeb(getString(R.string.url_app_google), popup.this);
+				IntentSupport.openWeb("https://play.google.com/store/apps/details?id="+getApplicationContext().getPackageName(), popup.this);
 				finish();
 
 			}

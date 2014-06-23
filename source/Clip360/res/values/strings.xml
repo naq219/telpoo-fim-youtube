@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Clip Việt</string>
+    <string name="app_name_ytdlk">Phim Ỷ Thiên Đồ Long Ký</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
     <string name="video_yeu_thich">Video yêu thích</string>
     <string name="danh_muc">Danh mục</string>
     <string name="luot_xem">" lượt xem"</string>
@@ -11,7 +10,6 @@
     <string name="danhgia">Đánh giá</string>
     <string name="lienhe">Liên hệ</string>
     <string name="ungdungkhac">Ứng dụng khác</string>
-    <string name="url_app_google">https://play.google.com/store/apps/details?id=com.telpoo.clip360</string>
     <string name="admobid">a1530b43b8d7d37</string>
     <string name="no_network_try_again">Hiện tại không có kết nối mạng. Hãy thử lại sau.</string>
     <string name="thulai">Thử lại</string>
